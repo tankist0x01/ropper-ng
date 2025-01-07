@@ -18,7 +18,7 @@ o   o o-o O-o  O-o  o-o o       o  o o--O
 
 
 # Args
-parser = argparse.ArgumentParser(description="Check binary security properties.")
+parser = argparse.ArgumentParser(description="New generation Ropper with least power but more agile.")
 parser.add_argument("binary", help="Path to the binary file")
 parser.add_argument("-t", "--type", type=str, help="Rop chain type: mprotect or execve")
 parser.add_argument("-g", "--gadget", type=str, help="Gadgets to search")
