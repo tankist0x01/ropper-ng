@@ -1,4 +1,2 @@
-argparse
-pwntools
-logging
-termcolor
+pwntools==4.13.1
+termcolor==2.5.0
